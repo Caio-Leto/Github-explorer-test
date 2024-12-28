@@ -7,6 +7,7 @@ interface RepositoryItemProps {
 }
 
 export function RepositoryItem(props: RepositoryItemProps) {
+    console.log("testendo aqui")
     return (
         <li>
             <strong>{props.repository.name}</strong>
